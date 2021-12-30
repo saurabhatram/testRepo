@@ -1,0 +1,71 @@
+/*default styling*/
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        
+}
+/*descendant selector, combinators*/
+header h1{
+    font-weight: 400;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 1rem;
+
+}
+nav{
+
+    width: 20rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 1.5rem;
+    right: 2rem;
+
+}
+
+li{
+    list-style:none;
+    font-weight: 500;
+}
+
+/*class selector*/
+.showcaseimg{
+    width: 95vw;
+    margin: 1rem;
+    
+}
+article
+{   margin: 1rem;
+    display: flex;
+
+}
+
+.container
+{
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+footer
+{  
+    background-color: darkslategray;
+    color: white;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+a{
+    text-decoration:none;
+}
+a:hover
+{
+    color: black;
+
+}
